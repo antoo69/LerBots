@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 28518520
+API_HASH = "c858cde56cb2b2050a64df7e65de567b"
+BOT_TOKEN = "7400291381:AAHSFJSFiMo2X3eticFWkQUUeP9pK9NQU2s"
+MONGO_DB_URI = "mongodb+srv://kcici715:buburayam1@cluster0.clpcyju.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID = -1002079962899
+OWNER_ID = 7083782157
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -22,15 +22,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Learningbots79/Learning_Bots",
+    "https://github.com/antoo69/LerBots1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("Nenen_degrees", "")
+SUPPORT_GROUP = getenv("BestieVirtual", "")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -52,7 +52,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "BQF5wxsAikEoyDC_fsrk7pp-tHJzVUNIwjszAoCT7yh1AqLB23m9nGraOogjODYKDW9_kV2UNlfuSsd7TxHqssXt9zYAaBt77rX0hCwPNUht5J0XNHggNzJltoro3Rj6IA3xy0hihDoK0j-DM3ZBGMyInVovNVZFRFS0XBZeTCfhi6M8_8lL-7zBBLnGAVGcUDICNo_QxxPa1k2f2Gs_5wTiSmWokbGurcOXMJ5YOvYl9kKtSS2gYjVu-d5TbIvcdPEc1OXGLv-gdur-KxgYeRVipdRiXcBLJSmApxwkcxcKQtm_8myC1NiygEknsL8NllfnsYzHtvb355OpM4GKDKgYxiMbEgAAAAGOOXsUAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -68,13 +68,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/a97267c36c899070e7308.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/367d54c914940e75f159e.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/7aa263a19bd1b8148411b.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/a5c64b31f6929355aa629.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
